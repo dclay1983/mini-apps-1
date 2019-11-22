@@ -1,0 +1,38 @@
+.header {
+  text-align: center;
+}
+.center {
+  text-align: center;
+}
+.board {
+  border: 1px solid black;
+  padding: 0;
+  display: inline-block;
+}
+.row {
+  padding: 0;
+  border: 0;
+  display: flex;
+}
+.square {
+  margin: 0;
+  padding: 0;
+  height: 90px;
+  width: 90px;
+  background-color: rgb(5, 130, 161);
+}
+.piece {
+  background-color: rgb(5, 117, 145);
+  margin: 7.5px;
+  padding: 0;
+  height: 75px;
+  width: 75px;
+  border: 1px solid rgb(2, 72, 90);
+  border-radius: 50%;
+}
+.piece.black {
+  background-color: rgb(41, 41, 41);
+}
+.piece.red {
+  background-color: rgb(168, 3, 3);
+}
